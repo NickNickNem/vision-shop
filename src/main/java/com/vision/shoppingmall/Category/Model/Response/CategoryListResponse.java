@@ -11,4 +11,5 @@ public class CategoryListResponse {
 
     private Long id;
     private String categoryName;
+    private Long productCount;
 }

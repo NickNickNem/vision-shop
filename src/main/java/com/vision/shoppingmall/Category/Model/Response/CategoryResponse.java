@@ -1,4 +1,4 @@
-package com.vision.shoppingmall.Category.Model.Request;
+package com.vision.shoppingmall.Category.Model.Response;
 
 import lombok.AllArgsConstructor;
 import lombok.Getter;

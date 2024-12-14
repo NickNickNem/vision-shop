@@ -1,6 +1,6 @@
 package com.vision.shoppingmall.Category.Controller;
 
-import com.vision.shoppingmall.Category.Model.Request.CategoryResponse;
+import com.vision.shoppingmall.Category.Model.Response.CategoryResponse;
 import com.vision.shoppingmall.Category.Model.Request.CategoryUpdateRequest;
 import com.vision.shoppingmall.Category.Model.Request.CreateCategoryRequest;
 import com.vision.shoppingmall.Category.Model.Response.CategoryListResponse;
@@ -13,8 +13,6 @@ import org.springframework.ui.Model;
 import org.springframework.validation.BindingResult;
 import org.springframework.validation.annotation.Validated;
 import org.springframework.web.bind.annotation.*;
-
-import java.util.List;
 
 @Controller
 @RequestMapping("/categories")
